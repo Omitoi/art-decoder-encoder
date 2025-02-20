@@ -108,4 +108,4 @@ This program is written in Go and requires the Go compiler to run.
 ![separator](https://64.media.tumblr.com/885d08abf15908e6e49257d8653b1e4f/9cf3dc62c374aba1-67/s2048x3072/a5a084384f964aab9500719967cf090b53aeccd7.pnj)
 
 ## Author
-- Developed by Petr Kubec
+- Developed by Omitoi | Petr Kubec
