@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>ASCII Art Encoder/Decoder</title>
+    <style>
+        body { font-family: 'Consolas', 'Monaco', monospace; text-align: center; }
+        textarea { width: 80%; height: 100px; font-family: inherit; }
+        pre { background: #f5f5f5; padding: 10px; display: inline-block; }
+    </style>
+    <script src="/static/scripts.js"></script>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/static/Heading.jpg" alt="ASCII Art Encoder/Decoder">
+    </div>
+    
+    <form method="POST">
+        <textarea id="art_input" name="art_input" placeholder="Enter Art" ></textarea><br>
+        <button type="submit" name="action" value="decode" onclick="checkInput('art_input', 'inputError')">Decode</button>
+        <button type="submit" name="action" value="encode" onclick="checkInput('art_input', 'inputError')">Encode</button>
+        <button type="button" onclick="adjustFontSize('art_input', 'result', 1)">+</button>
+        <button type="button" onclick="adjustFontSize('art_input', 'result', -1)">-</button>
+    </form>
+    {{if .Result}}
+    <h2>Result:</h2>
+    <pre id="result">{{.Result}}</pre>
+    {{end}}
+</body>
+</html>

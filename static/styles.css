@@ -1,0 +1,83 @@
+body {
+    font-family: 'Consolas', 'Monaco', monospace; 
+    text-align: center;
+    background: linear-gradient(to right, #043435, #043439);
+}
+
+#art_input {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    min-width: 600px;
+    max-width:90%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #ebbe89;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    resize: none;
+}
+
+.radio-buttons {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 3rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #ebbe89;
+}
+
+pre {
+    background: #f4f4f4; 
+    padding: 10px; 
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: initial;
+}
+.image-container {
+    width: 50vw;
+    height: 13.5vw;
+    overflow: hidden;
+    margin: 0px auto 20px auto;
+    border-radius: 25%;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-26%);
+}
